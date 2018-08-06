@@ -1,48 +1,48 @@
 {
-  "name": "hele-create-class",
-  "version": "0.1.0",
-  "description": "A component class creator for hele.",
-  "main": "dist/hele-create-class.umd.min.js",
-  "module": "dist/hele-create-class.min.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "build": "rollup -c",
-    "postbuild": "terser dist/hele-create-class.js --config-file terser.json --module -o dist/hele-create-class.min.js && terser dist/hele-create-class.umd.js --config-file terser.json --toplevel -o dist/hele-create-class.umd.min.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huang2002/hele-create-class.git"
-  },
-  "keywords": [
-    "hele",
-    "create",
-    "class",
-    "es5",
-    "component",
-    "3h"
-  ],
-  "author": "3h",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/huang2002/hele-create-class/issues"
-  },
-  "homepage": "https://github.com/huang2002/hele-create-class#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "hele": "^0.3.3",
-    "rollup": "^0.63.5",
-    "rollup-plugin-babel": "^3.0.7",
-    "terser": "^3.8.1"
-  },
-  "peerDependencies": {
-    "hele": "*"
-  },
-  "files": [
-    "README.md",
-    "CHANGELOG.md",
-    "LICENSE",
-    "index.d.ts",
-    "dist"
-  ]
+    "name": "hele-create-class",
+    "version": "0.1.1",
+    "description": "A component class creator for hele.",
+    "main": "dist/hele-create-class.umd.min.js",
+    "module": "dist/hele-create-class.min.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "postbuild": "terser dist/hele-create-class.js --config-file terser.json --module -o dist/hele-create-class.min.js && terser dist/hele-create-class.umd.js --config-file terser.json --toplevel -o dist/hele-create-class.umd.min.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/huang2002/hele-create-class.git"
+    },
+    "keywords": [
+        "hele",
+        "create",
+        "class",
+        "es5",
+        "component",
+        "3h"
+    ],
+    "author": "3h",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/huang2002/hele-create-class/issues"
+    },
+    "homepage": "https://github.com/huang2002/hele-create-class#readme",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "hele": "^0.3.3",
+        "rollup": "^0.63.5",
+        "rollup-plugin-babel": "^3.0.7",
+        "terser": "^3.8.1"
+    },
+    "peerDependencies": {
+        "hele": "*"
+    },
+    "files": [
+        "README.md",
+        "CHANGELOG.md",
+        "LICENSE",
+        "index.d.ts",
+        "dist"
+    ]
 }
