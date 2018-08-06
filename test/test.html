@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hele-create-class</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="../node_modules/hele/dist/hele.umd.min.js"></script>
+    <script src="../dist/hele-create-class.umd.js"></script>
+    <script>
+        const h = HEle.createElement;
+        HEle.render(
+            h(
+                HEle.createClass({
+                    render() {
+                        return h('h1', null, this.props.text);
+                    }
+                }), {
+                    text: 'Hi!'
+                }
+            ),
+            document.getElementById('root')
+        );
+    </script>
+</body>
+
+</html>
