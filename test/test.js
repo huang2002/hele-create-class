@@ -1,3 +1,5 @@
+/// <reference types="../" />
+
 const h = HEle.createElement;
 
 HEle.render(

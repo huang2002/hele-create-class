@@ -1,6 +1,6 @@
 {
     "name": "hele-create-class",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A component class creator for hele.",
     "main": "dist/hele-create-class.umd.min.js",
     "module": "dist/hele-create-class.min.js",
@@ -30,7 +30,7 @@
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0",
-        "hele": "^0.3.3",
+        "hele": "^0.4.2",
         "rollup": "^0.63.5",
         "rollup-plugin-babel": "^3.0.7",
         "terser": "^3.8.1"
