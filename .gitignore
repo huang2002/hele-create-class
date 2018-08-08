@@ -1,1 +1,4 @@
 node_modules
+dist/hele-create-class.min.js
+dist/hele-create-class.umd.js
+dist/hele-create-class.umd.min.js
