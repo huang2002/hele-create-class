@@ -1,3 +1,7 @@
+### 0.1.3 - 2018-08-10
+
+- Fix terser options
+
 ### 0.1.2 - 2018-08-07
 
 - Improve type declarations
